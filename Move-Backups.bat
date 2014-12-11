@@ -1,0 +1,1 @@
+powershell.exe -executionpolicy ByPass -File "E:\UNM IT\Move-Item.ps1" %1 %2
