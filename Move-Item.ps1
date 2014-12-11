@@ -150,12 +150,12 @@ if($destDateArrayCount -ne 30){
         # writeLog($DateStr)
         $DateFile = get-childitem -Path "$DestPath\*" -Include *$destDateArrayFormatted*
         # writeLog($DateFile)
-        writeLog("Deleting : $DateFile as it is older than 30 days `n")
+        writeLog("Deleting : $DateFile as it is older than 30 last backed up files `n")
         Remove-Item $DateFile
         $destDateArrayCount = $destDateArrayCount - 1
     }
 } else {
-    writeLog("No files to delete as all the files are < 30 days from the present date")
+    writeLog("Number of files in the destination are < 30. No files deleted!")
 }
 
 writeLog("Step 2: Done.. Please check for errors")
