@@ -17,7 +17,7 @@ $dte = Get-Date
 $dteformatted = Get-Date $dte -format yyyy_M_dd-h_m_s
 
 $destParentPath = Split-Path $DestPath -Parent
-$logPath = "$destParentPath`\mylogfile-$dteformatted.log"
+$logPath = "$destParentPath`\PowerShellLogs\mylogfile-$dteformatted.log"
 
 #==========
 # Functions
