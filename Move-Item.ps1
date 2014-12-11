@@ -141,13 +141,14 @@ $destDateArrayCount = $destDateArray.Count
 $tempCount = $destDateArrayCount - 30
 
 if($destDateArrayCount -ne 30){
-    for ($i=0; $i -le $tempCount; $i++) {
+    for ($i=0; $i -le $tempCount-1; $i++) {
+        $destDateArray[$i]
         # writeLog($destDateArrayCount)
-        $tempDestDateArrayCount = -1 - $destDateArrayCount
-        # writeLog($tempDestDateArrayCount)
-        $DateStr = Get-Date $dte.AddDays($tempDestDateArrayCount) -format yyyy_M_dd     # Gets the date into format "2014_11_30"
+        
+        $destDateArrayFormatted = Get-Date $destDateArray[$i] -format yyyy_MM_dd
+        $destDateArrayFormatted
         # writeLog($DateStr)
-        $DateFile = get-childitem -Path "$DestPath\*" -Include *$DateStr*
+        $DateFile = get-childitem -Path "$DestPath\*" -Include *$destDateArrayFormatted*
         # writeLog($DateFile)
         writeLog("Deleting : $DateFile as it is older than 30 days `n")
         Remove-Item $DateFile
