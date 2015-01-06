@@ -18,31 +18,20 @@ net use $DestDrive /delete /y
 # $username = Get-Content -Path D:\PowerShell-backup\storedEncryptedUsername.txt | ConvertTo-SecureString
 $username = "Cwikbupitsvc"
 
-#$password = Get-Content -Path D:\PowerShell-backup\storedEncryptedPassword.txt | ConvertTo-SecureString
-#****************************************************
-#$password = get-content D:\PowerShell-backup\encrypted.txt | convertto-securestring -key (1..16)
-#****************************************************
-#$cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+$password = Get-Content -Path D:\PowerShell-backup\storedEncryptedPassword.txt | ConvertTo-SecureString
 
-#New-PSDrive -name X -psprovider FileSystem -root $DestDrive -Credential $cred -Description "Maps to confluence backup folder on the network drive."
-New-PSDrive -name X -psprovider FileSystem -root $DestDrive -Description "Maps to confluence backup folder on the network drive."
+$cred = new-object -typename System.Management.Automation.PSCredential -argumentlist $username, $password
+
+New-PSDrive -name X -psprovider FileSystem -root $DestDrive -Credential $cred -Description "Maps to confluence backup folder on the network drive."
 
 $DestPath = "X:\PSBackups"
 
 $dte = Get-Date
 $dteformatted = Get-Date $dte -format yyyy_M_dd-h_m_s
 
-$currentPath = Convert-Path .
+$logPath = "X:\PowerShellLogs\PS_Backup-$dteformatted.log"
 
-$logDir = [string]::Concat($currentPath, '\logs')
-
-if (-not (Test-Path $logDir)) {
-    New-Item -ItemType Directory -Force -Path $logDir
-}
-
-$logPath = "$logDir\PS_Backup-$dteformatted.log"
-
-# $logPath = "X:\PowerShellLogs\PS_Backup-$dteformatted.log"
+Write-Host $logPath
 
 #==========
 # Functions

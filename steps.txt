@@ -1,0 +1,14 @@
+Cwik11B@ckup
+
+Move-Backups.bat "D:\TempBackupFiles" "\\it153cfs03\itapp\ConfluenceBackups\AutomatedBackups" /admin
+
+-executionpolicy ByPass -NonInteractive "D:\PowerShell-backup\Move-Item.ps1" "D:\TempBackupFiles" "\\it153cfs03\itapp\ConfluenceBackups\AutomatedBackups"
+
+-executionpolicy ByPass -NonInteractive "D:\PowerShell-backup\Move-Item.ps1" "C:\Program Files\Atlassian\Application Data\Confluence\backups" "\\it153cfs03\itapp\ConfluenceBackups\AutomatedBackups"
+
+-executionpolicy ByPass -NonInteractive "D:\PowerShell-backup\Move-Item.ps1" "c:\PROGRA~1\Atlassian\Confluence\APPLIC~1\Confluence\backups" "\\it153cfs03\itapp\ConfluenceBackups\AutomatedBackups"
+
+powershell "c:\test.ps1 'a b' 'c d'"
+
+
+-executionpolicy ByPass -NonInteractive D:\PowerShell-backup\Move-Item.ps1 'C:\Program Files\Atlassian\Application Data\Confluence\backups' '\\it153cfs03\itapp\ConfluenceBackups\AutomatedBackups'

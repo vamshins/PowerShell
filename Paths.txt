@@ -1,0 +1,7 @@
+\\it153cfs03\itapp
+
+
+Test-Path \\it153cfs03\itapp\ConfluenceBackups\PSBackups
+
+
+"\\it153cfs03\itapp\ConfluenceBackups"

@@ -1,0 +1,46 @@
+2015_1_05-4:25:1 INFO: ============================================
+2015_1_05-4:25:1 INFO:          Movement of Backup files
+2015_1_05-4:25:1 INFO: ============================================
+2015_1_05-4:25:1 INFO: Source Folder : d:\tempbackupfiles
+2015_1_05-4:25:1 INFO: Source Folder : X:\PSBackups 
+
+2015_1_05-4:25:1 INFO: Step 1: Finding the files corresponding to last dates of the months and moving them into separate folder X:\PSBackups\enddates...
+2015_1_05-4:25:1 INFO: Step 1: Done.. Please check for errors
+2015_1_05-4:25:1 INFO: -----------------------------------------------------------------
+2015_1_05-4:25:1 INFO: Step 2: Finding the files older than 30 days and deleting them...
+2015_1_05-4:25:1 INFO: Step 2: Done.. Please check for errors
+2015_1_05-4:25:1 INFO: -----------------------------------------------------------------
+2015_1_05-4:25:1 INFO: Step 3: Moving the backup files from d:\tempbackupfiles to X:\PSBackups...
+2015_1_05-4:25:1 INFO: Moving file D:\tempbackupfiles\backup-2013_06_21.zip to X:\PSBackups
+2015_1_05-4:25:1 INFO: Moving file D:\tempbackupfiles\backup-2013_06_22.zip to X:\PSBackups
+2015_1_05-4:25:1 INFO: Moving file D:\tempbackupfiles\backup-2013_09_28.zip to X:\PSBackups
+2015_1_05-4:25:2 INFO: Moving file D:\tempbackupfiles\backup-2013_10_28.zip to X:\PSBackups
+2015_1_05-4:25:4 INFO: Moving file D:\tempbackupfiles\backup-2013_11_28.zip to X:\PSBackups
+2015_1_05-4:25:5 INFO: Moving file D:\tempbackupfiles\backup-2013_12_28.zip to X:\PSBackups
+2015_1_05-4:25:6 INFO: Moving file D:\tempbackupfiles\backup-2014_01_28.zip to X:\PSBackups
+2015_1_05-4:25:7 INFO: Moving file D:\tempbackupfiles\backup-2014_03_28.zip to X:\PSBackups
+2015_1_05-4:25:9 INFO: Moving file D:\tempbackupfiles\backup-2014_04_28.zip to X:\PSBackups
+2015_1_05-4:25:11 INFO: Moving file D:\tempbackupfiles\backup-2014_05_28.zip to X:\PSBackups
+2015_1_05-4:25:13 INFO: Moving file D:\tempbackupfiles\backup-2014_06_28.zip to X:\PSBackups
+2015_1_05-4:25:15 INFO: Moving file D:\tempbackupfiles\backup-2014_07_31.zip to X:\PSBackups
+2015_1_05-4:25:18 INFO: Moving file D:\tempbackupfiles\backup-2014_08_31.zip to X:\PSBackups
+2015_1_05-4:25:22 INFO: Moving file D:\tempbackupfiles\backup-2014_09_30.zip to X:\PSBackups
+2015_1_05-4:25:26 INFO: Moving file D:\tempbackupfiles\backup-2014_10_31.zip to X:\PSBackups
+2015_1_05-4:25:30 INFO: Moving file D:\tempbackupfiles\backup-2014_11_30.zip to X:\PSBackups
+2015_1_05-4:25:35 INFO: Moving file D:\tempbackupfiles\backup-2014_12_06.zip to X:\PSBackups
+2015_1_05-4:25:40 INFO: Moving file D:\tempbackupfiles\backup-2014_12_07.zip to X:\PSBackups
+2015_1_05-4:25:45 INFO: Moving file D:\tempbackupfiles\backup-2014_12_08.zip to X:\PSBackups
+2015_1_05-4:25:50 INFO: Moving file D:\tempbackupfiles\backup-2014_12_09.zip to X:\PSBackups
+2015_1_05-4:25:55 INFO: Moving file D:\tempbackupfiles\backup-2014_12_10.zip to X:\PSBackups
+2015_1_05-4:25:59 INFO: Moving file D:\tempbackupfiles\backup-2014_12_11.zip to X:\PSBackups
+2015_1_05-4:26:3 INFO: Step 3: Done.. Please check for errors
+2015_1_05-4:26:3 INFO: -----------------------------------------------------------------
+2015_1_05-4:26:3 INFO: Step 4: If there are any files which belongs to last date of the months, then moving them from X:\PSBackups to X:\PSBackups\enddates
+2015_1_05-4:26:3 INFO: Moving file \\it153cfs03\itapp\confluencebackups\automatedbackups\PSBackups\backup-2014_07_31.zip to X:\PSBackups\enddates
+2015_1_05-4:26:3 INFO: Moving file \\it153cfs03\itapp\confluencebackups\automatedbackups\PSBackups\backup-2014_08_31.zip to X:\PSBackups\enddates
+2015_1_05-4:26:3 INFO: Moving file \\it153cfs03\itapp\confluencebackups\automatedbackups\PSBackups\backup-2014_09_30.zip to X:\PSBackups\enddates
+2015_1_05-4:26:3 INFO: Moving file \\it153cfs03\itapp\confluencebackups\automatedbackups\PSBackups\backup-2014_10_31.zip to X:\PSBackups\enddates
+2015_1_05-4:26:3 INFO: Moving file \\it153cfs03\itapp\confluencebackups\automatedbackups\PSBackups\backup-2014_11_30.zip to X:\PSBackups\enddates
+2015_1_05-4:26:3 INFO: Step 4: Done.. Please check for errors
+2015_1_05-4:26:3 INFO: -----------------------------------------------------------------
+2015_1_05-4:26:3 INFO: Completed!!!

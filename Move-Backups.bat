@@ -1,1 +1,5 @@
-powershell.exe -executionpolicy ByPass -File "E:\UNM IT\Move-Item.ps1" %1 %2
+CD c:\Users\vamshins\Desktop
+
+c:
+
+powershell.exe -executionpolicy ByPass -File D:\PowerShell-backup\Move-Item.ps1 %1 %2

@@ -1,0 +1,19 @@
+2015_1_05-3:22:50 INFO: ============================================
+2015_1_05-3:22:50 INFO:          Movement of Backup files
+2015_1_05-3:22:50 INFO: ============================================
+2015_1_05-3:22:50 INFO: Source Folder : d:\tempbackupfiles
+2015_1_05-3:22:50 INFO: Source Folder : X:\PSBackups 
+
+2015_1_05-3:22:50 INFO: Step 1: Finding the files corresponding to last dates of the months and moving them into separate folder X:\PSBackups\enddates...
+2015_1_05-3:22:50 INFO: Step 1: Done.. Please check for errors
+2015_1_05-3:22:50 INFO: -----------------------------------------------------------------
+2015_1_05-3:22:50 INFO: Step 2: Finding the files older than 30 days and deleting them...
+2015_1_05-3:22:50 INFO: Step 2: Done.. Please check for errors
+2015_1_05-3:22:50 INFO: -----------------------------------------------------------------
+2015_1_05-3:22:50 INFO: Step 3: Moving the backup files from d:\tempbackupfiles to X:\PSBackups...
+2015_1_05-3:22:50 INFO: Step 3: Done.. Please check for errors
+2015_1_05-3:22:50 INFO: -----------------------------------------------------------------
+2015_1_05-3:22:50 INFO: Step 4: If there are any files which belongs to last date of the months, then moving them from X:\PSBackups to X:\PSBackups\enddates
+2015_1_05-3:22:50 INFO: Step 4: Done.. Please check for errors
+2015_1_05-3:22:50 INFO: -----------------------------------------------------------------
+2015_1_05-3:22:50 INFO: Completed!!!

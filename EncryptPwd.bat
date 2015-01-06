@@ -1,0 +1,1 @@
+powershell.exe -executionpolicy ByPass -File "D:\PowerShell-backup\EncryptPwd.ps1"
